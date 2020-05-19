@@ -1,0 +1,104 @@
+h1{
+    color: black;
+    text-align: center;
+}
+
+#bar{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+}
+
+body{
+    background-color: white;
+}
+
+body{
+    background-color: lightblue;
+}
+
+div{
+    background-color: rgb(151, 189, 39);
+    
+}
+#leftlogo{
+ float: left;
+ margin-bottom: 0px; 
+}
+#left{
+    float: left;
+    margin-bottom: 0px; 
+   }
+
+#rightlogo{
+    float: center;
+    padding-top: 30px;
+    padding-bottom: 1px;
+}
+#right{
+    float: right;
+    margin-bottom: 0px;
+}
+
+#objective{
+    float: center;
+    width: 180px;
+    height: 180px;
+    text-align: justify;
+    background-color: lightblue;
+    padding-left: 125px;
+}
+
+.loginform::first-letter{
+    color: red;
+}
+
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+footer { 
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+nav {
+    list-style-type: none;
+    font-weight: bold;
+    position: relative;
+    border-top: 5px solid slategray;
+    border-bottom: 5px solid slategray;
+}
+nav a:hover{
+    background-color: black;
+    color: chartreuse;
+    padding: 15px 25px;
+    text-align: center;
+}
+nav a:link{
+    text-decoration: none;
+}
+
+section{
+    border-bottom: 3px solid black;
+    text-align: center;
+}
+
+table, th, td{
+    border: 3px solid slategray;
+    border-collapse: collapse;
+    text-align: center;   
+}
+
+#vegtable{
+    margin-left: 38%;
+}

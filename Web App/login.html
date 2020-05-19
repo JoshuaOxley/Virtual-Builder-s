@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CAS - Center of Activities for Students </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="js/CAS.js"></script>
+    </head>
+    <body>
+    <div id="leftlogo">
+        <img src="img\logo2.jpg" alt="logo" style="width:105px; height:105px;">
+    </div>
+    <div id="rightlogo">
+        <h1>Center of Activities for Students (CAS)</h1>
+    </div>
+        
+    
+    <nav>
+        <h1>
+            <a href="Index Page.html">HOME</a> |
+            <a href="Pool Rental.html">POOL HALL</a> |
+            <a href="clubs.html">CLUBS</a> |
+            <a href="forum.html">FORUM PAGE</a> |
+            <a href="foods.html">FOODS</a> |
+            <a href="events.html">EVENTS AND ACTIVITES</a> |
+            <a href="login.html">LOGIN</a>
+        </h1>
+    </nav>
+    <br>
+
+    <div id="left" style="background-color: lightblue; padding-left: 250px;">
+        <h1 style="text-decoration: underline;">Log in</h1>
+        <form name="loginSub" onsubmit="return validateForm()" method="POST" action="Index Page.html">
+            <fieldset>
+                <table>
+                    <tr>
+                        <td style="text-align: left;" class="loginform">* username/email:</td>
+                        <td><input type="text" name="uname" placeholder="John Doe" required></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: right;" class="loginform">* password:</td>
+                        <td><input type="password" name="pwrd" placeholder="*******" required></td>
+                    </tr>
+                </table>
+                <input type="submit" value="submit" style="margin-left: 120px;">                
+            </fieldset>
+        </form> 
+    </div>
+    </body>
+</html>
